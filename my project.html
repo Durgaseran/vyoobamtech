@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <h1>Inventory Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#inventory">Inventory</a></li>
+                <li><a href="#add-item">Add Item</a></li>
+                <li><a href="#reports">Reports</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <p>Welcome to the Inventory Management System. Here, you can manage your items efficiently.</p>
+        </section>
+
+        <section id="inventory">
+            <h2>Inventory List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item ID</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>Women T-Shirt</td>
+                        <td>Category 1</td>
+                        <td>2</td>
+                        <td>300/-</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Men T-Shirt</td>
+                        <td>Category 2</td>
+                        <td>2</td>
+                        <td>300/-</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Redimate Kurti Set</td>
+                        <td>Category 3</td>
+                        <td>1</td>
+                        <td>450/-</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <!-- More rows as needed -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="add-item">
+            <h2>Add New Item</h2>
+            <form>
+                <label for="item-id">Item ID:</label>
+                <input type="text" id="item-id" name="item-id">
+
+                <label for="item-name">Item Name:</label>
+                <input type="text" id="item-name" name="item-name">
+
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category">
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity">
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" step="0.01">
+
+                <button type="submit">Add Item</button>
+            </form>
+        </section>
+        <section id="reports">
+            <h2>Reports</h2>
+            <p>This is the Shopping platform.it is safe and secure to users.The shopping platform project succesfully delivers a comprehensive solution for modern e-commerce needs,emphasizing usuality,security and scalability.with future enhancements like AI-driven product recommendations and mobile integration,the platform aims to stay ahead in the competitive online shopping industry</p>
+        </section>
+        <section>
+            <caption>copyrights@2024</caption>
+        </section>
+    </main>
+</body>
+</html>
